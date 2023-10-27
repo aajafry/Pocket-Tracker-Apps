@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+.apps-heading{
+    text-align: center;
+    margin: 30px 0px;
+    line-height: 30px;
+}
+.transaction-form{
+    margin: 30px auto;
+}
+.transaction-form form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    width: 100%;
+    max-width: 60%;
+    margin: 0 auto;
+}
+
+.transaction-form form select,input{
+    width: 100%;
+    padding: 8px 12px;
+    outline: none;
+    border: 2px solid deepskyblue;
+    border-radius: 5px;
+}
+
+.transaction-form button{
+    padding: 12px 16px;
+    margin: 20px auto;
+    border-radius: 5px;
+    border: 2px solid dodgerblue;
+    background: deepskyblue;
+    color: white;
+    font-weight: 800;
+    transition: all .5s ease-in-out;
+}
+
+.transaction-form button:hover{
+    background: dodgerblue;
+    border: 2px solid deepskyblue;
+}
+
+.transactionInquery{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    margin: 30px auto;
+    background: aliceblue;
+    padding: 60px 0px;
+}
+.transactionInquery span{
+    color: black;
+
+} 
+
+.transactionHistory{
+    background: deepskyblue;
+    color: white;
+    border-radius: 5px;
+    border: 2px solid dodgerblue;
+    font-weight: 800;
+    padding: 40px 5%;
+    line-height: 25px;
+}
+.transactionHistoryTable{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px auto;
+}
+.transactionHistoryTable table{
+    text-align: center;
+    width: 100%;
+    max-width: 80%;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+.transactionHistoryTable thead > tr{
+    background: #f0f0f0;
+}
+.transactionHistoryTable tbody > tr:nth-child(even){
+    background: #f5f5f5;
+}
+.transactionHistoryTable span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+}
+footer{
+    margin: 30px 0px auto;
+    padding: 60px 0px;
+    text-align: center;
+    background: darkgrey;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+footer a{
+    text-decoration: none;
+    color: black;
+}
